@@ -23,3 +23,6 @@ systemctl restart xrdp >> $LOGFILE 2>&1
 
 # Open firewall -- the bad way
 ufw allow 3389 >> $LOGFILE 2>&1
+
+# Log completion
+echo "*** stack script complete ***" >> $LOGFILE
