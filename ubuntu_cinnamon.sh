@@ -13,7 +13,7 @@ apt autoclean -y >> $LOGFILE 2>&1
 # Install desktop environment
 apt install cinnamon -y >> $LOGFILE 2>&1
 
-# Install a browser
+# Install a browser -- add any other desired software
 apt install firefox -y >> $LOGFILE 2>&1
 
 # Install xrdp
@@ -23,3 +23,6 @@ systemctl restart xrdp >> $LOGFILE 2>&1
 
 # Open firewall -- the bad way
 ufw allow 3389 >> $LOGFILE 2>&1
+
+# Log completion
+echo "*** stack script complete ***" >> $LOGFILE
