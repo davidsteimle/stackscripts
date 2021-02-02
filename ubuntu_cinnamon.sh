@@ -23,10 +23,3 @@ systemctl restart xrdp >> $LOGFILE 2>&1
 
 # Open firewall -- the bad way
 ufw allow 3389 >> $LOGFILE 2>&1
-
-# Create a user
-useradd david >> $LOGFILE 2>&1
-mkdir/home/david >> $LOGFILE 2>&1
-chown david /home/david >> $LOGFILE 2>&1
-# Additional software -- later
-# snap install powershell --classic
