@@ -13,7 +13,7 @@ apt autoclean -y >> $LOGFILE 2>&1
 # Install desktop environment
 apt install gnome-session -y >> $LOGFILE 2>&1
 
-# Install a browser
+# Install a browser -- add any other desired software
 apt install firefox -y >> $LOGFILE 2>&1
 
 # Install xrdp
