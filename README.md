@@ -20,9 +20,13 @@ tail -f /root/stackscript.log
 
 ### Ubuntu 20.10
 
+For Ubuntu systems I have added installation for FireFox as the browser.
+
 * [ubuntu_cinnamon.sh](https://github.com/davidsteimle/stackscripts/blob/main/ubuntu_cinnamon.sh) installs with the Cinnamon desktop
 * [ubuntu_gnomesession.sh](https://github.com/davidsteimle/stackscripts/blob/main/ubuntu_gnomesession.sh) installs with the Gnome-Session desktop
 
 ### Debian 10
+
+For Debian systems I have added installation of Chromium as the browser, as Debian does not have a direct installation of FireFox.
 
 * [debian_gnomesession.sh](https://github.com/davidsteimle/stackscripts/blob/main/debian_gnomesession.sh) installs with the Gnome-Session desktop
